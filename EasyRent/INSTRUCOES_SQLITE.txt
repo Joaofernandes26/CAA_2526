@@ -1,0 +1,21 @@
+EasyRent atualizado para SQLite
+
+Login inicial:
+Utilizador: admin
+Password: 1234
+
+O projeto foi migrado para base de dados SQLite.
+A base de dados está em:
+database/easyrent.db
+
+Tabelas criadas:
+- clientes
+- viaturas
+- alugueres
+- utilizadores
+
+Importante para o NetBeans:
+O projeto está configurado para usar o driver SQLite em:
+lib/sqlite-jdbc.jar
+
+Se o NetBeans mostrar erro "Driver SQLite não encontrado", adicionar o ficheiro sqlite-jdbc.jar nas Libraries do projeto.

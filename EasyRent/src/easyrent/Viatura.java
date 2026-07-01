@@ -1,5 +1,8 @@
+package easyrent;
+
 public class Viatura {
 
+    //Atributos
     private String matricula;
     private String marca;
     private String modelo;
@@ -8,8 +11,8 @@ public class Viatura {
     private double precoSemanal;
     private double precoMensal;
 
-    public Viatura(String matricula, String marca, String modelo,
-                   double precoDiario, double precoSemanal, double precoMensal) {
+    //Construtor
+    public Viatura(String matricula, String marca, String modelo,double precoDiario, double precoSemanal, double precoMensal) {
 
         this.matricula = matricula;
         this.marca = marca;
@@ -20,8 +23,7 @@ public class Viatura {
         this.precoMensal = precoMensal;
     }
 
-    public Viatura(String matricula, String marca, String modelo, String estado,
-                   double precoDiario, double precoSemanal, double precoMensal) {
+    public Viatura(String matricula, String marca, String modelo, String estado,double precoDiario, double precoSemanal, double precoMensal) {
 
         this.matricula = matricula;
         this.marca = marca;
@@ -32,6 +34,7 @@ public class Viatura {
         this.precoMensal = precoMensal;
     }
 
+    //Metudo Get
     public String getMatricula() {
         return matricula;
     }
@@ -60,6 +63,7 @@ public class Viatura {
         return precoMensal;
     }
 
+    //Metudo Set
     public void setMarca(String marca) {
         this.marca = marca;
     }
